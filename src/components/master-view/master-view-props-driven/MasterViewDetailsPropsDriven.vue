@@ -76,7 +76,10 @@ export default {
       type: String,
       default: null,
     },
-    item: Object,
+    item: {
+      type: Object,
+      required: true,
+    },
   },
   data() {
     return {

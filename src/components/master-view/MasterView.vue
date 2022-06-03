@@ -13,7 +13,7 @@
     <div class="master-view-body">
 
 <!--      Props driven -->
-      <MasterViewDetailsPropsDriven />
+      <MasterViewDetailsPropsDriven :item="item" />
       <MasterViewDetailsPropsDriven :type="item.type" :item="item" />
 <!--      end props driven-->
 
